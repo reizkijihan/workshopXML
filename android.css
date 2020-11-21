@@ -1,0 +1,16 @@
+ANDROID {
+	display: block;
+	padding: 20px;
+}
+
+NAMA, RILIS, APILEVEL, VERSI, LOGO {
+	display: block;
+	margin-bottom: 10px;
+}
+
+NAMA {
+	font-size: large;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+}

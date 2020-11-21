@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> Situs Informasi </title>
+</head>
+<body>
+	<xml id="dsoAndroid" src="android.xml"> </xml>
+
+	<button onclick="androidTable.firstPage()">
+		||<< First Page
+	</button>
+	<button onclick="androidTable.previousPage()">
+		||<< Previous Page
+	</button>
+	<button onclick="androidTable.nextPage()">
+		||<< Next Page
+	</button>
+	<button onclick="androidTable.lastPage()">
+		||<< Last Page
+	</button>
+
+	<center><h2><b> SITUS INFORMASI ANDROID </b></h2></center>
+	<br> <br>
+
+	<h2> Daftar Android Version </h2>
+	<table border="1" width= "100%" datasrc="#dsoAndroid" border="1" cellpadding="10">
+		<thead>
+		<th width="30%">Nama</th>
+		<th width="30%">API Level </th>
+		<th width="15%">Versi</th>
+		<th width="25%">Tanggal Rilis</th>
+	</thead>
+	<tr>
+		<td><span datafld="NAMA" style="font-style: italic"></span></td>
+		<td><span datafld="APILEVEL"></span></td>
+		<td><span datafld="VERSI"></span></td>
+		<td><span datafld="RILIS"></span></td>
+	</tr>
+</table>
+</body>
+</html>
